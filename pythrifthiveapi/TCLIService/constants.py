@@ -7,7 +7,7 @@
 #
 
 from thrift.Thrift import TType, TMessageType, TException, TApplicationException
-from . import ttypes
+from .ttypes import *
 
 PRIMITIVE_TYPES = set([
     0,
